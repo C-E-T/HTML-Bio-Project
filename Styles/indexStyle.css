@@ -1,3 +1,11 @@
+/*websiteStyle.css
+Written by: Cody Tersigni
+Student Number: W0770841
+Started October 27 2020
+Finalized October 30 2020
+*/
+
+/*Nav Style*/
 nav a:visited{
     color:orange;
 }
@@ -7,29 +15,27 @@ nav a:link{
     text-decoration: none;
 }
 
+/*Body Style*/
 body{
     background-color: rgba(128, 0, 128, 0.767);
 }
 
-h1[target="name"]{
-    color: fuchsia;
-}
-
+/*Unordered List Style*/
 ul{ 
     list-style-image: url("../Images/facePhoto.jpg");
     text-align: center;
     list-style-position: inside;
 
 }
-
+/*Header Style*/
 header{
     text-align: center;
 }
-
+/*Footer Style*/
 footer{
     text-align: center;
 }
-
+/*Image Style*/
 img{
     width: 500px;
     height: 300px;
@@ -37,11 +43,11 @@ img{
     margin-right: auto;
     display: block;
 }
-
+/*About Class Style*/
 #about{
     text-align: center;
 }
-
+/*Heading Style*/
 h1, h2, h3, h4, h5, h6{
     text-align: center;
     font-variant: small-caps;
@@ -49,16 +55,20 @@ h1, h2, h3, h4, h5, h6{
     text-decoration-color: tomato;
     text-decoration-thickness: 5px;
 }
-
+/*H1 Style*/
 h1{
     font-family: cursive;
     
 }
-
+/*H1 with a Name selector Style*/
+h1[target="name"]{
+    color: fuchsia;
+}
+/*H2 Style*/
 h2{
     font-family: monospace;
 }
-
+/*H3 Style*/
 h3{
     font-size: 20px;
     font-family: fantasy;
